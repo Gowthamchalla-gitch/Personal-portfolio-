@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gowtham's Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      background: #fff;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .profile-img {
+      width: 120px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #007acc;
+    }
+
+    a:hover {
+      color: #005f99;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Gowtham Challa</h1>
+      <p>Web Developer | CSE Student</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="Gowtham's Photo" class="profile-img" />
+      <p>Hello! I’m Gowtham, a passionate web developer and CSE student aiming to build creative and impactful web experiences.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website</strong> – This website itself 😄</li>
+        <li><strong>Login Page</strong> – Designed a clean login form using HTML/CSS</li>
+        <li><strong>Landing Page</strong> – Built a responsive landing page using Flexbox</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:challagowtham394@gmail.com">challagowtham394@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/gowtham-challa-6998582b8" target="_blank">linkedin.com/in/gowtham-challa</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gowtham Challa. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
